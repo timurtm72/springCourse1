@@ -20,12 +20,6 @@ public class Main {
         rockMusicPlayerBean.play();
         popMusicPlayerBean.play();
 
-//        MusicPlayer.addGenre(classicalMusic);
-//        MusicPlayer.addGenre(rockMusic);
-//        MusicPlayer.addGenre(popMusic);
-
-//        MusicPlayer.allGenresPlay();
-
         context.close();
     }
 }

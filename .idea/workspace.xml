@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e6c9b8f-95d5-4fb4-8bb8-11947842180c" name="Changes" comment="Выполенено задание">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e6c9b8f-95d5-4fb4-8bb8-11947842180c" name="Changes" comment="2 вариант задания">
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/spring/player/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/spring/player/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/maxima/spring/player/MusicPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/maxima/spring/player/MusicPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +103,7 @@
       <workItem from="1671984124158" duration="10221000" />
       <workItem from="1672039964471" duration="196000" />
       <workItem from="1672057482298" duration="3779000" />
-      <workItem from="1672070673331" duration="3893000" />
+      <workItem from="1672070673331" duration="4192000" />
     </task>
     <task id="LOCAL-00001" summary="Выполенено задание">
       <created>1672040058462</created>
@@ -115,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672040058462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 вариант задания">
+      <created>1672075824896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672075824896</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Выполенено задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выполенено задание" />
+    <MESSAGE value="2 вариант задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 вариант задания" />
   </component>
 </project>
