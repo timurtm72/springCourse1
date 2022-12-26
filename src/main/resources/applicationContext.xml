@@ -5,6 +5,7 @@
     http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="musicBean" class="ru.maxima.spring.player.ClassicalMusic">
-    </bean>
+    <bean id="ClassicalMusicBean" class="ru.maxima.spring.player.ClassicalMusic"></bean>
+    <bean id="RockMusicBean" class="ru.maxima.spring.player.RockMusic"></bean>
+    <bean id="PopMusicBean" class="ru.maxima.spring.player.PopMusic"></bean>
 </beans>

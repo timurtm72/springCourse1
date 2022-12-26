@@ -1,2 +1,5 @@
-package ru.maxima.spring.player;public interface Music {
+package ru.maxima.spring.player;
+
+public interface Music {
+    String getSong();
 }
