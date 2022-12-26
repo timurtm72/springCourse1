@@ -8,4 +8,13 @@
     <bean id="ClassicalMusicBean" class="ru.maxima.spring.player.ClassicalMusic"></bean>
     <bean id="RockMusicBean" class="ru.maxima.spring.player.RockMusic"></bean>
     <bean id="PopMusicBean" class="ru.maxima.spring.player.PopMusic"></bean>
+    <bean id="classicalMusicPlayerBean" class="ru.maxima.spring.player.MusicPlayer">
+        <constructor-arg ref="ClassicalMusicBean"></constructor-arg>
+    </bean>
+    <bean id="rockMusicPlayerBean" class="ru.maxima.spring.player.MusicPlayer">
+        <constructor-arg ref="RockMusicBean"></constructor-arg>
+    </bean>
+    <bean id="popMusicPlayerBean" class="ru.maxima.spring.player.MusicPlayer">
+        <constructor-arg ref="PopMusicBean"></constructor-arg>
+    </bean>
 </beans>

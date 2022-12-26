@@ -12,11 +12,19 @@ public class Main {
         Music rockMusic = context.getBean("RockMusicBean", Music.class);
         Music popMusic = context.getBean("PopMusicBean", Music.class);
 
-        MusicPlayer.addGenre(classicalMusic);
-        MusicPlayer.addGenre(rockMusic);
-        MusicPlayer.addGenre(popMusic);
+        MusicPlayer classicalMusicPlayerBean = context.getBean("classicalMusicPlayerBean",MusicPlayer.class);
+        MusicPlayer rockMusicPlayerBean = context.getBean("rockMusicPlayerBean",MusicPlayer.class);
+        MusicPlayer popMusicPlayerBean = context.getBean("popMusicPlayerBean",MusicPlayer.class);
 
-        MusicPlayer.allGenresPlay();
+        classicalMusicPlayerBean.play();
+        rockMusicPlayerBean.play();
+        popMusicPlayerBean.play();
+
+//        MusicPlayer.addGenre(classicalMusic);
+//        MusicPlayer.addGenre(rockMusic);
+//        MusicPlayer.addGenre(popMusic);
+
+//        MusicPlayer.allGenresPlay();
 
         context.close();
     }
